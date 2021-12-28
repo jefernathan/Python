@@ -11,7 +11,7 @@ for x in range(1, numero + 1):
         print('\033[0;32m', end='')
     print(x, end=' ')
 
-print(f'\033[m,\nO {numero} possue {divisores} divisores, então ele', end='')
+print(f'\033[m,\nO {numero} possui {divisores} divisores, então ele', end='')
 if divisores == 2:
     print('\033[1;32m é primo\033[m')
 else:
