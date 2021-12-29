@@ -14,7 +14,7 @@ print('\033[33mProcessando...')
 sleep(3)
 
 if numero1 == numero2:
-    print(f'\033[32mPARÁBENS\033[m')
+    print(f'\033[32mPARABÉNS\033[m')
 else:
     print(f'\033[31mNão foi dessa vez\033[m')
 
